@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useRecoilState } from 'recoil';
 import { todoState, Todo } from '../recoil/todoState';
-import CheckedIcon from '../assets/CheckedIcon';
-import DeleteIcon from '../assets/DeleteIcon';
-import CheckMarkIcon from '../assets/CheckMarkIcon';
-import XIcon from '../assets/XIcon';
+import CheckedIcon from '../../public/icons/CheckedIcon';
+import DeleteIcon from '../../public/icons/DeleteIcon';
+import CheckMarkIcon from '../../public/icons/CheckMarkIcon';
+import XIcon from '../../public/icons/XIcon';
 
 interface TodoItemProps {
   todo: Todo;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useRecoilState } from 'recoil';
 import { todoState } from '../recoil/todoState';
-import PlusIcon from '../assets/PlusIcon';
+import PlusIcon from '../../public/icons/PlusIcon';
 
 const AddTodo: React.FC = () => {
   const [text, setText] = useState('');
