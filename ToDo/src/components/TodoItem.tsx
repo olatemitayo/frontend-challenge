@@ -45,7 +45,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
   };
 
   return (
-    <div className="flex items-center gap-2 transition ease-in-out duration-300 transform hover:scale-105">
+    <div className="flex items-center gap-2 transition ease-in-out duration-300 transform md:hover:scale-105">
       <div className="flex items-center space-x-4 mb-2 w-full">
         <div className="relative h-6 w-6" onClick={toggleComplete}>
           <input
