@@ -23,5 +23,5 @@
     "vitest.config.ts",
     "vitest.config.mts"
   ],
-  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx", "public/icons/CheckedIcon.tsx", "public/icons/CheckMarkIcon.tsx", "public/icons/DeleteIcon.tsx", "public/icons/PlusIcon.tsx", "public/icons/XIcon.tsx"]
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx", "src/assets/icons/CheckedIcon.tsx", "src/assets/icons/CheckMarkIcon.tsx", "src/assets/icons/DeleteIcon.tsx", "src/assets/icons/PlusIcon.tsx", "src/assets/icons/XIcon.tsx"]
 }
